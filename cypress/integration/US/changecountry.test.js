@@ -6,7 +6,7 @@ import summary from '../Functions/summarypage'
 import success from '../Functions/successpage'
 
 
-describe('Change Country', () => {
+describe('Change Country In Account Page', () => {
 				
 	context('Home Page', () => {
 
