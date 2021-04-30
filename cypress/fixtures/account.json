@@ -1,0 +1,24 @@
+{
+	"enrollmentsettings" : "ENROLLMENT SETTINGS",
+	"language" : "Language:",
+	"yourenrollerid" : "Your Enroller's ID",
+	"aboutyou" : "ABOUT YOU",
+	"firstname" : "First Name",
+	"lastname" : "Last Name",
+	"birthdate" : "Birth date",
+	"phone" : "Phone",
+	"email" : "Email",
+	"ssn" : "SSN",
+	"gender" : "Gender",
+	"martialstatus" : "Marital Status:",
+	"specialcharacter" : "!@#$%",
+	"numerics" : "123456",
+	"alphabets" : "ABCDEFG",
+
+	"Referral" : {
+		"enroller": "114446701",
+		"sponsor": "200718401"
+	},
+
+	"accountsetup" : "Account Setup"
+}

@@ -1,0 +1,19 @@
+{
+    "standard": {
+        "billingName": "Clark Kent",
+        "num": "4111111111111111",
+        "cvv": "123",
+        "expDate": {
+            "year": "2036",
+            "month": "02"
+        }
+    },
+
+    "US":{
+    	"address1": "1201 North 800 East",
+    	"address2": "",
+    	"postalcode": "84097",
+    	"city": "Orem",
+    	"state": "Utah"
+    }
+}

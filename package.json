@@ -1,0 +1,25 @@
+{
+  "name": "unicitymember",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean:reports": "if exist C:\\xampp\\htdocs\\reports\\mocha rmdir /s/q C:\\xampp\\htdocs\\reports\\mocha && mkdir C:\\xampp\\htdocs\\reports\\mocha",
+    "pretest": "npm run clean:reports",
+    "scripts": "cypress run ",
+    "combine-reports": "mochawesome-merge C:\\xampp\\htdocs\\reports\\mocha\\*.json > C:\\xampp\\htdocs\\reports\\mochareports\\report.json",
+    "generate-report": "marge C:\\xampp\\htdocs\\reports\\mochareports\\report.json -f report  -o C:\\xampp\\htdocs\\reports\\mochareports",
+    "posttest": "npm run combine-reports && npm run generate-report",
+    "test": "npm run scripts || npm run posttest"
+  },
+  "author": "C B Suman",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.2.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha": "^8.3.2",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0"
+  }
+}

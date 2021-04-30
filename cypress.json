@@ -1,0 +1,18 @@
+{
+	"baseUrl": "http://dev-enroll.unicityqa.com/master/",
+	"defaultCommandTimeout": 15000,
+ 	"ignoreTestFiles": [
+    	"!*.test.js"
+  	],
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+    	"reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "C:\\xampp\\htdocs\\reports\\mocha",
+            "quiet": true,
+            "overwrite": false,
+            "html": false,
+            "json": true
+        }
+    }
+}
